@@ -14,6 +14,7 @@
 </p>
 
 <p align="center">
+  <a href="https://arpanjot-coding.github.io/CheatCraft/">Product website</a> ·
   <a href="https://github.com/arpanjot-coding/CheatCraft/releases">Download</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#connect-your-ai-client">Connect your AI</a> ·
