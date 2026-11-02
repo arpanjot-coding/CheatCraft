@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="$lang">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>$title</title>
+  <meta name="description" content="$description">
+  <link rel="canonical" href="$canonical">
+  $alternates
+  <meta property="og:site_name" content="CheatCraft">
+  <meta property="og:title" content="$title">
+  <meta property="og:description" content="$description">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:locale" content="$og_locale">
+  $og_alternates
+  <meta property="og:image" content="${base}social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="CheatCraft — $title">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="$title">
+  <meta name="twitter:description" content="$description">
+  <meta name="twitter:image" content="${base}social-card.png">
+  <meta name="twitter:image:alt" content="CheatCraft — $title">
+  <meta name="theme-color" content="#0c1320">
+  <link rel="stylesheet" href="${asset}style.css">
+  <link rel="icon" href="${asset}favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">$schema</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">$skip</a>
+  <header>
+    <a class="brand" href="$home"><span class="mark" aria-hidden="true">CC</span> CheatCraft</a>
+    <nav aria-label="$nav_label">
+      <a class="repo-link github-stars" href="$repo/stargazers" data-star-label="$stars" aria-label="$stars"><span aria-hidden="true">★</span> <span data-stars>—</span> GitHub</a>
+      <details class="language-menu">
+        <summary>$language <span lang="$lang">· $native</span></summary>
+        <div class="language-options">$options</div>
+      </details>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <div class="eyebrow" lang="en">WINDOWS x64 / LOCAL MCP / v0.4.0</div>
+        <h1 id="hero-title">$heading</h1>
+        <p class="lead">$intro</p><p class="audience">$audience</p>
+        <p class="license-note">$license</p>
+        <div class="actions"><a class="button" href="$release">$download <span aria-hidden="true">↗</span></a><a class="quiet" href="$repo">$source <span aria-hidden="true">→</span></a></div>
+      </div>
+      <figure class="product product-real">
+        <a href="${asset}screenshots/memory-search.jpg" aria-label="$illustration"><img src="${asset}screenshots/memory-search.jpg" alt="$illustration" width="1362" height="930" fetchpriority="high" decoding="async"></a>
+        <figcaption>$illustration</figcaption>
+      </figure>
+    </section>
+    <section id="features" aria-labelledby="features-title">
+      <div class="sectionhead"><span class="eyebrow" aria-hidden="true">01 / CHEATCRAFT</span><h2 id="features-title">$features_title</h2></div>
+      <div class="features">$features</div>
+    </section>
+    <section class="workflow" aria-labelledby="workflow-title">
+      <div><span class="eyebrow" aria-hidden="true">02 / WORKFLOW</span><h2 id="workflow-title">$workflow_title</h2></div>
+      <ol>$steps</ol>
+    </section>
+    <section class="technology" aria-labelledby="stack-title"><span class="eyebrow" aria-hidden="true">03 / TECHNOLOGY</span><h2 id="stack-title">$stack</h2><p>$stack_intro</p><div class="stack-links"><a href="https://www.python.org/">Python</a><a href="https://github.com/israel-dryer/ttkbootstrap">ttkbootstrap</a><a href="https://github.com/giampaolo/psutil">psutil</a><a href="https://github.com/modelcontextprotocol/python-sdk">MCP Python SDK</a><a href="https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory">Windows API</a></div><a class="quiet" href="$repo/blob/main/README.md">$docs <span aria-hidden="true">↗</span></a></section>
+    <section class="release" aria-label="$download">
+      <span class="pill" lang="en">v0.4.0 / source preview</span><p>$notice</p><a class="button" href="$release">$download <span aria-hidden="true">↗</span></a>
+    </section>
+    <section class="faq" aria-labelledby="faq-title"><h2 id="faq-title">$faq</h2>
+      <details><summary>$q1</summary><p>$a1</p></details>
+      <details><summary>$q2</summary><p>$a2</p></details>
+    </section>
+    <section class="languages" aria-labelledby="languages-title"><h2 id="languages-title">$language</h2><div>$options</div></section>
+  </main>
+  <footer><span>© 2026 CheatCraft · MIT</span><a href="$repo/blob/main/README.md">$docs</a><a href="$repo/blob/main/SECURITY.md">$security</a><a href="$repo/issues">$issues <span aria-hidden="true">↗</span></a></footer>
+<script src="${asset}site.js" defer></script>
+</body>
+</html>
