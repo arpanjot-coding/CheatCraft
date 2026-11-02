@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+session.json
+*.log
+.tk-runtime/
+*.lock
+build/
+dist/
+*.tmp
+.ruff_cache/

@@ -1,0 +1,30 @@
+CheatCraft v0.4.0 preview — verification, 2 November 2026
+
+Local environment: Windows 11 x64, Python 3.14.7
+
+PASS: 16 backend/regression tests, including an actual official-SDK MCP
+stdio handshake and owned-process memory search.
+PASS: expanded desktop workflow test: attachment, search, comparative
+refinement, watches, snapshots, precise large-integer sorting, MCP-state
+synchronization, background-only memory reads, compact layout and shutdown.
+PASS: Ruff static checks and consistent formatting.
+PASS: README JSON example and local documentation links.
+PASS: PyInstaller creates the desktop and MCP executables with bundled Tcl/Tk.
+PASS: packaged MCP executable: initialization, tool discovery, status and
+actual memory search against the owned controlled fixture.
+
+LOCAL BLOCKER: Windows Application Control rejects the unsigned desktop
+executable with WinError 4551, both inside and outside the sandbox.
+Packaged desktop startup was NOT verified locally. Do not interpret a
+successful build or checksum as a successful local desktop launch.
+The source desktop runs and passes its widget integration test.
+
+The Windows GitHub Actions workflow is included as docs/windows-ci.yml.
+It was not installed or run because the publishing token lacks workflow
+scope. No passing CI result is claimed. The public release ships source;
+the unsigned desktop executable remains an experimental local build.
+
+Known limits: no large-process benchmark, no broad hardware/DPI coverage,
+no code signing, no independent security audit, no protected-game access.
+Visual QA of the latest compact layout remains incomplete after the user
+stopped the prior computer-use session. Automated layout checks pass.

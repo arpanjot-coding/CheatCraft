@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1320"/><stop offset="1" stop-color="#172e43"/></linearGradient></defs>
+  <rect width="1280" height="360" rx="20" fill="url(#bg)"/>
+  <path d="M810 0v360M930 0v360M1050 0v360M1170 0v360M760 90h520M760 180h520M760 270h520" stroke="#29485b" opacity=".5"/>
+  <rect x="54" y="58" width="76" height="76" rx="15" fill="#54d8cb"/>
+  <text x="92" y="109" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#092c2b">CC</text>
+  <text x="156" y="90" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="3" fill="#9bacc4">WINDOWS DESKTOP · LOCAL MCP</text>
+  <text x="152" y="145" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" fill="#e8eef7">CheatCraft</text>
+  <text x="56" y="211" font-family="Segoe UI,Arial,sans-serif" font-size="27" fill="#e8eef7">Runtime visibility. Shared with your AI.</text>
+  <text x="56" y="251" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#9bacc4">Inspect values, follow changes, and compare live process state.</text>
+  <text x="56" y="314" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="2" fill="#54d8cb">TYPED SEARCH  /  LIVE WATCHES  /  SNAPSHOT DIFFS</text>
+  <rect x="1076" y="55" width="146" height="36" rx="18" fill="#203e51"/>
+  <text x="1149" y="79" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#54d8cb">v0.4.0 · preview</text>
+</svg>
